@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test and Prediction Data</title>
+</head>
+<body>
+  <h1>Test and Prediction Data</h1>
+  
+  <div id="test-data">
+    <h2>Test Data</h2>
+    <ul id="test-list"></ul>
+  </div>
+  
+  <div id="prediction-data">
+    <h2>Prediction Data</h2>
+    <ul id="prediction-list"></ul>
+  </div>
+
+  <script>
+    // Function to fetch test and prediction data from Flask server
+    function fetchData() {
+      fetch('/data')
+        .then(response => response.json())
+        .then(data => {
+          // Extract test and prediction data from the response
+          const { test, predictions } = data;
+
+          // Display test data
+          const testList = document.getElementById('test-list');
+          test.forEach(value => {
+            const listItem = document.createElement('li');
+            listItem.textContent = value;
+            testList.appendChild(listItem);
+          });
+
+          // Display prediction data
+          const predictionList = document.getElementById('prediction-list');
+          predictions.forEach(value => {
+            const listItem = document.createElement('li');
+            listItem.textContent = value;
+            predictionList.appendChild(listItem);
+          });
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });
+    }
+
+    // Call the fetchData function when the page loads
+    window.addEventListener('load', fetchData);
+  </script>
+</body>
+</html>
