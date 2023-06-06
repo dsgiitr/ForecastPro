@@ -1,6 +1,6 @@
 # Modeling Long- and Short-Term Temporal Patterns with Deep Neural Networks
 
-![LSTNet Overview](![LSTNet Overview](Screenshot from 2023-06-06 14-33-26.png))
+(![LSTNet Overview](Screenshot from 2023-06-06 14-33-26.png))
 
 This repository provides an implementation of stacked LSTMs and LSTNet, two deep neural network models designed to capture long- and short-term temporal patterns in time series data. This readme file aims to provide a comprehensive understanding of these models, their advantages, and why LSTNet outperforms stacked LSTMs. Additionally, it includes a brief description of statistical autoregressive models and the reasons why deep learning (DL) models have traditionally underperformed them.
 
