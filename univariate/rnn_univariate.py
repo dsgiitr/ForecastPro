@@ -120,7 +120,8 @@ class univariate_ts_rnn:
             plt.title('Forecast Evaluation')
             plt.show()
         
-            return test_val,predictions
+            return model,test_val,predictions
+    
 
 class statistical_univariate:
     def __init__(self):

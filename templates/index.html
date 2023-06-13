@@ -67,19 +67,33 @@
       </div>
     </div>
 
-    <!-- Chart Section -->
-    <div class="card mt-4">
-      <div class="card-body">
-        <h5 class="card-title">Forecast Chart</h5>
-        
-        <!-- Canvas for Chart.js -->
-        <canvas id="chart" width="300" height="150"></canvas>
-
-      </div>
-    </div>
+ <!-- Chart Section -->
+<div class="card mt-4">
+  <div class="card-body">
+    <h5 class="card-title">Forecast Chart</h5>
+    
+    <!-- Canvas for Chart.js -->
+    <canvas id="chart" width="300" height="150"></canvas>
 
   </div>
+</div>
 
-  <script src="{{ url_for('static', filename='script.js') }}"></script>
+<script src="{{ url_for('templates', filename='script.js') }}"></script>
+<script>
+  // Load data from the pickle file
+  fetch("{{ url_for('static', filename='past_preds.pickle') }}")
+    .then(response => response.arrayBuffer())
+    .then(buffer => {
+      var data = Array.from(new Float32Array(buffer));
+      generateChart(data);
+    })
+    .catch(error => console.error("Error loading data:", error));
+</script>
+
+
 </body>
 </html>
+
+
+
+
