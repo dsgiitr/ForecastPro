@@ -9,6 +9,7 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js" integrity="sha512-wUYbRPLV5zs6IqvWd88HIqZU/b8TBx+I8LEioQ/UC0t5EMCLApqhIAnUg7EsAzdbhhdgW07TqYDdH3QEXRcPOQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="path/to/pickle.js"></script>
 </head>
 <body>
 
@@ -78,17 +79,47 @@
   </div>
 </div>
 
-<script src="{{ url_for('templates', filename='script.js') }}"></script>
+
 <script>
-  // Load data from the pickle file
-  fetch("{{ url_for('static', filename='past_preds.pickle') }}")
-    .then(response => response.arrayBuffer())
-    .then(buffer => {
-      var data = Array.from(new Float32Array(buffer));
-      generateChart(data);
-    })
-    .catch(error => console.error("Error loading data:", error));
+  // Get the canvas element
+  var ctx = document.getElementById('chart').getContext('2d');
+  // fetching the array of data is a big issue
+  
+        // Create the chart
+        new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: Array.from({ length: loadedArray.length }, (_, i) => i + 1),
+            datasets: [{
+              label: 'Sample Data',
+              data: loadedArray,
+              backgroundColor: 'rgba(0, 123, 255, 0.2)',
+              borderColor: 'rgba(0, 123, 255, 1)',
+              borderWidth: 1
+            }]
+          },
+          options: {
+            responsive: true,
+            scales: {
+              x: {
+                display: true,
+                title: {
+                  display: true,
+                  text: 'Month'
+                }
+              },
+              y: {
+                display: true,
+                title: {
+                  display: true,
+                  text: 'Value'
+                }
+              }
+            }
+          }
+        });
 </script>
+
 
 
 </body>

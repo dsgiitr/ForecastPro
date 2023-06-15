@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array Loading Example</title>
+  <script>
+    // Fetch the JSON file
+    fetch("static/data.json")
+      .then(response => response.json())
+      .then(data => {
+        // Store the loaded array as a variable
+        var loadedArray = JSON.parse(JSON.stringify(data));
+
+        // Use the loaded array as needed
+        console.log(loadedArray);
+        // ...
+      })
+      .catch(error => console.error("Error loading JSON file:", error));
+  </script>
+</head>
+<body>
+  <h1>Array Loading Example</h1>
+</body>
+</html>
