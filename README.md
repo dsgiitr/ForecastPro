@@ -50,3 +50,30 @@ DL models have traditionally encountered challenges in outperforming statistical
 4. **Computational efficiency**: DL models tend to be more computationally demanding compared to statistical autoregressive models, especially for large-scale datasets.
 
 However, advancements in DL techniques, such as LSTNet, have shown promising results in addressing these challenges and outperforming traditional statistical autoregressive models in certain scenarios.
+
+## Results
+
+<!-- Placeholder for the results of the project. -->
+
+## Directions of Use
+
+<!-- Placeholder for the updated directions of use as the project proceeds. -->
+
+## References
+
+The following references provide more information about the concepts and techniques used in this project:
+
+1. "Stacked LSTM Networks" by Towards Data Science:
+   [Link to the article](https://medium.com/towards-data-science/stacked-long-short-term-memory-networks-4e3fc9f807d2)
+
+2. "LSTNet: A Deep Learning Model for Time Series Forecasting" by Medium:
+   [Link to the article](https://medium.com/analytics-vidhya/lstnet-a-deep-learning-model-for-time-series-forecasting-28550fb9c3c8)
+
+3. "Introduction to Statistical Autoregressive Models" by Medium:
+   [Link to the article](https://medium.com/@josephruffianto/introduction-to-statistical-autoregressive-models-7f1b6b7fcfb3)
+
+4. "Why Deep Learning Lags Behind Traditional Statistical Models in Time Series Forecasting?" by Medium:
+   [Link to the article](https://medium.com/@aakashns/why-deep-learning-lags-behind-traditional-statistical-models-in-time-series-forecasting-15e7e2d89cf)
+
+Please refer to these articles for in-depth explanations and insights into the concepts discussed in this README.
+
