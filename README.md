@@ -1,5 +1,11 @@
 # ForecastPro
+## RNNs(Univariate)
+### RESULTS 
+   #### PAST CONFIDENCE IS THE PERFORMANCE OF THE MODEL ON PAST DATA
+   ![image](https://github.com/dsgiitr/ForecastPro/assets/103068685/0cfe44d1-c1b5-4907-9dd0-b3b86fa9fb36) , ![image](https://github.com/dsgiitr/ForecastPro/assets/103068685/fc96ffac-4814-4e06-8870-45865b9e5fe7) ,       ![image](https://github.com/dsgiitr/ForecastPro/assets/103068685/01975965-2892-42f9-bb8d-8c825f73e460)
 
+
+## LSTNet ARCHITECTURE
 (![LSTNet Overview](image.png))
 
 This repository provides an implementation of stacked LSTMs and LSTNet, two deep neural network models designed to capture long- and short-term temporal patterns in time series data. This readme file aims to provide a comprehensive understanding of these models, their advantages, and why LSTNet outperforms stacked LSTMs. Additionally, it includes a brief description of statistical autoregressive models and the reasons why deep learning (DL) models have traditionally underperformed them.
