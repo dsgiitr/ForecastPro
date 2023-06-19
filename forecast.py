@@ -64,7 +64,7 @@ def generate_rnn_report(forecast_steps,
     last_batch=series[len(series)-time_steps:]
     forecast=[]
     for step in range(forecast_steps):
-        pred=model.predict(np.array(last_batch).reshape(1,10,1))
+        pred=model.predict(np.array(last_batch).reshape(1,time_steps,1))
         forecast.append(pred)
         last_batch=np.append(last_batch[1:],pred)
     forecast=np.array(forecast).flatten()

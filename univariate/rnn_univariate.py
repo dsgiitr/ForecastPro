@@ -70,10 +70,17 @@ class univariate_ts_rnn:
         test_data=data[boundry:]
 
         def get_XY(dat, time_steps):
-            Y_ind = np.arange(time_steps, len(dat), time_steps)
+            dat=np.array(dat)
+            Y_ind = np.arange(time_steps, int((len(dat)//time_steps)*time_steps),1)
+            #Y_ind=np.arange(range(time_steps-1,len(dat)))
             Y = dat[Y_ind]
             rows_x = len(Y)
-            X = dat[range(time_steps*rows_x)]
+            X=[]
+            for i in Y_ind:
+                #if i!=Y_ind[len(Y_ind)-1] :
+                X.append(dat[i-time_steps:i])
+            #X = dat[range(time_steps*rows_x)]
+            X=np.array(X)
             X = np.reshape(X, (rows_x, time_steps, 1))    
             return X, Y
         time_steps = self.time_steps
@@ -114,10 +121,11 @@ class univariate_ts_rnn:
             plt.show()
         
         if(self.forecast_eval==True):
-            test_val=test_data[range(0,len(data)-boundry,time_steps)]
+            #test_val=test_data[range(0,len(data)-boundry,time_steps)]
+            test_val=np.array(testY.flatten())
             plt.plot(test_val,linewidth=1)
             plt.plot(predictions)
-            plt.title('Forecast Evaluation')
+            plt.title('Past Confidence')
             plt.show()
         
             return scaler,model,test_val,predictions
