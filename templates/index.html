@@ -1,130 +1,101 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Time Series Forecaster</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js" integrity="sha512-wUYbRPLV5zs6IqvWd88HIqZU/b8TBx+I8LEioQ/UC0t5EMCLApqhIAnUg7EsAzdbhhdgW07TqYDdH3QEXRcPOQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="path/to/pickle.js"></script>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Time Series Forecaster</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"
+      integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"
+      integrity="sha512-wUYbRPLV5zs6IqvWd88HIqZU/b8TBx+I8LEioQ/UC0t5EMCLApqhIAnUg7EsAzdbhhdgW07TqYDdH3QEXRcPOQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="path/to/pickle.js"></script>
+    <script
+      src="https://cdn.plot.ly/plotly-2.24.1.min.js"
+      charset="utf-8"
+    ></script>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>Time Series Forecaster</h1>
 
-  <div class="container mt-5">
-    <h1>Time Series Forecaster</h1>
+      <!-- Data Loading Section -->
+      <div class="card mt-4">
+        <div class="card-body">
+          <h5 class="card-title">Data Loading</h5>
 
-    <!-- Data Loading Section -->
-    <div class="card mt-4">
-      <div class="card-body">
-        <h5 class="card-title">Data Loading</h5>
-        
-        <!-- Data Source Selection -->
-        <div class="form-group">
-          <select class="form-control" id="data-source">
-            <option value="yahoo">Use Yahoo Finance</option>
-            <option value="custom">Upload Custom Data</option>
-          </select>
+          <!-- Data Source Selection -->
+          <div class="form-group">
+            <select class="form-control" id="data-source">
+              <option value="yahoo">Use Yahoo Finance</option>
+              <option value="custom">Upload Custom Data</option>
+            </select>
+          </div>
+
+          <!-- Yahoo Finance Stock List -->
+          <div class="form-group" id="stock-list" style="display: block">
+            <label for="stocks">Select Stock:</label>
+            <select class="form-control" id="stocks">
+              <option value="^NSEI">Nifty</option>
+              <option value="^NSEBANK">Bank Nifty</option>
+            </select>
+          </div>
+
+          <!-- Custom Data File Upload -->
+          <div class="form-group" id="custom-data" style="display: none">
+            <input type="file" class="form-control-file" id="custom-file" />
+          </div>
+
+          <br />
+
+          <!-- Load Data Button -->
+          <button class="btn btn-primary" id="load-data-btn">Load Data</button>
         </div>
+      </div>
 
-        <!-- Yahoo Finance Stock List -->
-        <div class="form-group" id="stock-list" style="display: block;">
-          <label for="stocks">Select Stock:</label>
-          <select class="form-control" id="stocks">
-            <option value="^NSEI">Nifty</option>
-            <option value="^NSEBANK">Bank Nifty</option>
-          </select>
+      <!-- Model Selection Section -->
+      <div class="card mt-4">
+        <div class="card-body">
+          <h5 class="card-title">Model Selection</h5>
+
+          <!-- Model Selection Dropdown -->
+          <div class="form-group">
+            <label for="model-selection">Select Model:</label>
+            <select class="form-control" id="model-selection">
+              <option value="lstm">LSTM</option>
+              <option value="stacked-lstm">Stacked LSTM</option>
+            </select>
+          </div>
         </div>
+      </div>
 
-        <!-- Custom Data File Upload -->
-        <div class="form-group" id="custom-data" style="display: none;">
-          <input type="file" class="form-control-file" id="custom-file">
+      <!-- Chart Section -->
+      <div class="card mt-4">
+        <div class="'card-body">
+          <h5 class="card-title">Forecast Chart</h5>
+          <div id="validation_graph"></div>
         </div>
-
-        <br>
-
-        <!-- Load Data Button -->
-        <button class="btn btn-primary" id="load-data-btn">Load Data</button>
-
       </div>
     </div>
-    
-    <!-- Model Selection Section -->
-    <div class="card mt-4">
-      <div class="card-body">
-        <h5 class="card-title">Model Selection</h5>
-        
-        <!-- Model Selection Dropdown -->
-        <div class="form-group">
-          <label for="model-selection">Select Model:</label>
-          <select class="form-control" id="model-selection">
-            <option value="lstm">LSTM</option>
-            <option value="stacked-lstm">Stacked LSTM</option>
-          </select>
-        </div>
-
-      </div>
-    </div>
-
- <!-- Chart Section -->
-<div class="card mt-4">
-  <div class="card-body">
-    <h5 class="card-title">Forecast Chart</h5>
-    
-    <!-- Canvas for Chart.js -->
-    <canvas id="chart" width="300" height="150"></canvas>
-
-  </div>
-</div>
-
-
-<script>
-  // Get the canvas element
-  var ctx = document.getElementById('chart').getContext('2d');
-  // fetching the array of data is a big issue
-  
-        // Create the chart
-        new Chart(ctx, {
-          type: 'line',
-          data: {
-            labels: Array.from({ length: loadedArray.length }, (_, i) => i + 1),
-            datasets: [{
-              label: 'Sample Data',
-              data: loadedArray,
-              backgroundColor: 'rgba(0, 123, 255, 0.2)',
-              borderColor: 'rgba(0, 123, 255, 1)',
-              borderWidth: 1
-            }]
-          },
-          options: {
-            responsive: true,
-            scales: {
-              x: {
-                display: true,
-                title: {
-                  display: true,
-                  text: 'Month'
-                }
-              },
-              y: {
-                display: true,
-                title: {
-                  display: true,
-                  text: 'Value'
-                }
-              }
-            }
-          }
-        });
-</script>
-
-
-
-</body>
+    <script src="script.js"></script>
+    <script>
+      generateChart();
+    </script>
+  </body>
 </html>
-
-
-
-
