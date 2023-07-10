@@ -1,0 +1,3 @@
+[submodule "testing/LSTNet"]
+	path = testing/LSTNet
+	url = https://github.com/Enforcer03/LSTNet
