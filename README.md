@@ -1,4 +1,9 @@
 # ForecastPro
+## LSTNet(iterated forecast) 
+   Apple stock price(data used till June 30th 2023)
+   Index 3000+ is the forecast
+   ![image](https://github.com/dsgiitr/ForecastPro/assets/103068685/07475ff5-ede7-439e-b23a-c3cb8a40b32a)
+
 ## ConvLSTM On AirQuality UCI.
    ### PAST CONFIDENCE IS THE PERFORMANCE OF THE MODEL ON PAST DATA
    ![image](https://github.com/dsgiitr/ForecastPro/assets/103068685/5764ddc2-1040-46ef-b567-a500b36db286)
