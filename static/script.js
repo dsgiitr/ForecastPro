@@ -1,7 +1,5 @@
 try{
 
-
-  
 // JavaScript code to handle data source selection
 document.getElementById('data-source').addEventListener('change', function() {
   var selectedOption = this.value;
@@ -17,90 +15,133 @@ document.getElementById('data-source').addEventListener('change', function() {
   }
 });
 
-  // Function to fetch test and prediction data from Flask server
-  function fetchData() {
-    fetch('/data')
-      .then(response => response.json())
-      .then(data => {
-        // Extract test and prediction data from the response
-        var { test, predictions } = data;
-  
-        test = test.map(element => element[0])
-        predictions = predictions.map(element => element[0])
-  
-        addChart(test, predictions)
+document.getElementById("train-model-btn").addEventListener("click", function(event) {
+  event.preventDefault();
+  console.log("hiiii")
+
+  var form = document.getElementById("train-model-form");
+  var formData = new FormData(form);
+
+  fetch("/train-model", {
+    method: "POST",
+    body: formData
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    addChart("new", data.test, data.predictions, data.forecast)
+  })
+  .catch(error => {
+    console.error(error);
+  });
+});
+
+// Function to fetch test and prediction data from Flask server
+async function fetchData (predfile, testfile, func) {
+
+  await fetch(
+    '/data', {
+      method: "post",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        "predfile": predfile,
+        "testfile": testfile
       })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-  }
-  
-  
-  function addChart(test, predictions){
-    // Chart data
-    var data = {
-      labels : [...Array(test.length).keys()],
-      datasets : [
-          {
-            data : test,
-            label : "Test",
-            borderColor : "#3cba9f",
-          },
-          {
-            data : predictions,
-            label : "Predictions",
-            borderColor : "#FF5D53",
-          }
-        ]
-    };
-  
-    // Chart options
-    var options = {
-      responsive: true,
-      // scales: {
-      //   y: {
-      //     beginAtZero: true
-      //   }
-      // }
-      plugins: {
+    })
+    .then(response => response.json())
+    .then(data => {
+
+      var { test, predictions } = data;
+
+      func(test, predictions)
+
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+}
+
+
+function addChart(chartId, test, predictions, forecast=[]){
+  var data = {
+    labels : [...Array(test.length).keys()],
+    datasets : [
+        {
+          data : test,
+          label : "Test",
+          borderColor : "#3CBA9F",
+          showLine: true,
+        },
+        {
+          data : predictions,
+          label : "Predictions",
+          borderColor : "#FF5D53",
+          showLine: true,
+
+        },
+        {
+          data : forecast,
+          label : "Forecast",
+          borderColor : "#1585B3",
+          showLine: true,
+
+        },
+      ]
+  };
+
+  var options = {
+    plugins: {
+      zoom: {
+        pan: {
+          enabled: true
+        },
         zoom: {
-          pan: {
+          wheel: {
+            enabled: true,
+          },
+          pinch: {
             enabled: true
           },
-          zoom: {
-            wheel: {
-              enabled: true,
-            },
-            pinch: {
-              enabled: true
-            },
-            mode: 'xy',
+          mode: 'xy',
+        },
+        limits : {
+          x: {
+            max: 'original',
+            min: 'original'
           },
-          limits : {
-            y: {
-              max: 'original',
-              min: 'original'
-            }
+
+          y: {
+            max: 'original',
+            min: 'original'
           }
         }
       }
-  
-    };
-  
-    // Create the chart
-    new Chart(document.getElementById("chart"), {
-      type : 'line',
-      data : data,
-      options : options
-    });
-  
-  }
-  
-  window.addEventListener('load', fetchData);
-  
-  var ctx = document.getElementById('chart').getContext('2d');
-  
-  } catch(err) {
-    console.error(err)
-    
-  }
+    }
+
+  };
+
+  // Create the chart
+  new Chart(document.getElementById(chartId), {
+    type : 'scatter',
+    data : data,
+    options : options
+  });
+
+}
+
+window.addEventListener('load', ()=>{
+  fetchData('static/past_preds.json', 'static/past_test.json', (test, predictions)=>{
+    addChart("past", test, predictions)
+  })
+});
+
+
+
+// var ctx = document.getElementById("").getContext('2d');
+
+} catch(err) {
+  console.error(err)
+
+}
