@@ -127,7 +127,7 @@ class univariate_ts_rnn:
             plt.title('Forecast Evaluation')
             plt.show()
         
-            return test_val,predictions
+        return scaler, model, test_val, predictions
 
 
 
