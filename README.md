@@ -10,13 +10,6 @@
    ### FORECAST
    ![image](https://github.com/dsgiitr/ForecastPro/assets/103068685/f373b544-b2dc-44b3-9b1b-2df9f51365f6)
 
-   
-## RNNs(Univariate)
-### RESULTS 
-   #### PAST CONFIDENCE
-   ![image](https://github.com/dsgiitr/ForecastPro/assets/103068685/0cfe44d1-c1b5-4907-9dd0-b3b86fa9fb36) , ![image](https://github.com/dsgiitr/ForecastPro/assets/103068685/fc96ffac-4814-4e06-8870-45865b9e5fe7) ,       ![image](https://github.com/dsgiitr/ForecastPro/assets/103068685/01975965-2892-42f9-bb8d-8c825f73e460)
-
-
 ## LSTNet ARCHITECTURE
 (![LSTNet Overview](image.png))
 
