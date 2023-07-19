@@ -51,6 +51,8 @@ class ConvLSTM(Model):
         self.forecast_setps=forecast_steps
         self.y_test=None
         self.n_series=n_series
+        self.epochs=epochs
+        self.time_steps=time_steps
         
 
     def call(self, inputs):
@@ -64,8 +66,15 @@ class ConvLSTM(Model):
     def train(self, X_train, y_train, X_test, y_test):
         self.y_test=y_test
         cp1 = tf.keras.callbacks.ModelCheckpoint('conv_lstm_checkpoint/', save_best_only=True)
-        self.compile(loss=tf.keras.losses.MeanSquaredError(), optimizer=tf.keras.optimizers.Adam(learning_rate=0.0001), metrics=[tf.keras.metrics.RootMeanSquaredError()])
-        self.history = self.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=100, callbacks=[cp1])
+        self.compile(loss=tf.keras.losses.MeanSquaredError(), 
+                     optimizer=tf.keras.optimizers.Adam(learning_rate=0.0001), 
+                     metrics=[tf.keras.metrics.RootMeanSquaredError()],
+                     )
+        self.history = self.fit(X_train, 
+                                y_train, 
+                                validation_data=(X_test, y_test), 
+                                epochs=self.epochs,
+                                callbacks=[cp1])
     
     def prediction_summary(self, X_test, summary=False):
         preds = self.predict(X_test)
@@ -85,7 +94,7 @@ class ConvLSTM(Model):
         return preds,self.y_test
 
     def forecast(self, X_test, forecast_steps, plot_forecast=True):
-        last_batch = X_test[-time_steps:]
+        last_batch = X_test[-self.time_steps:]
         forecast = []
         for step in range(forecast_steps):
             pred = self.predict(np.array(last_batch[step]).reshape(1, time_steps, n_series))
@@ -94,11 +103,12 @@ class ConvLSTM(Model):
         forecast = np.array(forecast)
         final_forecast = forecast.reshape(forecast_steps, n_series)
         if(plot_forecast==True):
-            chart_df=pd.DataFrame(np.append(self.y_test[-100:], final_forecast).reshape(100+10,-1))
+            chart_df=pd.DataFrame(np.append(self.y_test[-100:], final_forecast).reshape(100+forecast_steps,-1))
             chart_df.iloc[:100,1].plot(label='actual')
             chart_df.iloc[100:,1].plot(label='forecast')
             plt.legend()
             plt.show()
+            return chart_df
         return final_forecast
 
 time_steps = 7

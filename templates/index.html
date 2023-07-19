@@ -13,7 +13,7 @@
 <body>
 
   <div class="container mt-5">
-    <h1>Time Series Forecaster</h1>
+    <h1>ForecastPro</h1>
 
     <!-- Data Loading Section -->
     <div class="card mt-4">
@@ -25,7 +25,9 @@
           <div class="form-group">
             <select class="form-control" id="data-source" name="data-source">
               <option value="yahoo">Use Yahoo Finance</option>
+              <option value="custom">Use UCI ML Datasets</option>
               <option value="custom">Upload Custom Data</option>
+
             </select>
           </div>
 
@@ -49,8 +51,11 @@
           <div class="form-group">
             <label for="model-selection">Select Model:</label>
             <select class="form-control" id="model-selection" name="model-selection">
-              <option value="lstm">LSTM</option>
-              <option value="stacked-lstm">Stacked LSTM</option>
+              <option value="conv-lstm">ConvLSTM</option>
+              <option value="conv-lstm">LSTNet(Iterated)</option>
+              <option value="conv-lstm">LSTNet(Mult-Model)</option>
+
+
             </select>
           </div>
 
