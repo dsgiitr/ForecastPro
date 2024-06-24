@@ -120,9 +120,12 @@ outputs = conv_lstm_model(inputs)
 
 conv_lstm_model.summary()
 
-# Assuming you have test data and forecast_steps: X_test, forecast_steps
-final_forecast = conv_lstm_model.forecast(X_test, forecast_steps)
-print(final_forecast)
+## train here
+
+
+## forecast
+# final_forecast = conv_lstm_model.forecast(X_test, forecast_steps)
+# print(final_forecast)
 
         
         

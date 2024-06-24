@@ -1,0 +1,596 @@
+2023-07-11 19:14:31.154 (18648) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:14:31.162 (18648) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:14:31.162 (18648) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:14:31.385 (18648) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:14:31.412 (18648) (INFO) MainThread.<module> -> Training shape: X:(1772, 28, 48) Y:(1772, 48)
+2023-07-11 19:14:31.412 (18648) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:14:31.412 (18648) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:14:31.414 (18648) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:14:44.194 (37184) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:14:44.195 (37184) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:14:44.195 (37184) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:14:44.423 (37184) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:14:44.448 (37184) (INFO) MainThread.<module> -> Training shape: X:(1773, 28, 48) Y:(1773, 48)
+2023-07-11 19:14:44.448 (37184) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:14:44.450 (37184) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:14:44.450 (37184) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:14:57.158 (17024) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:14:57.159 (17024) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:14:57.159 (17024) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:14:57.380 (17024) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:14:57.403 (17024) (INFO) MainThread.<module> -> Training shape: X:(1772, 28, 48) Y:(1772, 48)
+2023-07-11 19:14:57.403 (17024) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:14:57.404 (17024) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:14:57.404 (17024) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:15:09.776 (14728) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:15:09.777 (14728) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:15:09.777 (14728) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:15:09.987 (14728) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:15:10.13 (14728) (INFO) MainThread.<module> -> Training shape: X:(1771, 28, 48) Y:(1771, 48)
+2023-07-11 19:15:10.13 (14728) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:15:10.13 (14728) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:15:10.13 (14728) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:15:22.727 (29592) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:15:22.728 (29592) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:15:22.728 (29592) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:15:22.949 (29592) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:15:22.977 (29592) (INFO) MainThread.<module> -> Training shape: X:(1770, 28, 48) Y:(1770, 48)
+2023-07-11 19:15:22.978 (29592) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:15:22.978 (29592) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:15:22.978 (29592) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:15:35.535 (34020) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:15:35.537 (34020) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:15:35.537 (34020) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:15:35.739 (34020) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:15:35.763 (34020) (INFO) MainThread.<module> -> Training shape: X:(1769, 28, 48) Y:(1769, 48)
+2023-07-11 19:15:35.763 (34020) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:15:35.763 (34020) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:15:35.763 (34020) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:15:48.4 (44028) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:15:48.5 (44028) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:15:48.5 (44028) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:15:48.216 (44028) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:15:48.239 (44028) (INFO) MainThread.<module> -> Training shape: X:(1768, 28, 48) Y:(1768, 48)
+2023-07-11 19:15:48.239 (44028) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:15:48.239 (44028) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:15:48.240 (44028) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:16:00.281 (28708) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:16:00.281 (28708) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:16:00.281 (28708) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:16:00.508 (28708) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:16:00.538 (28708) (INFO) MainThread.<module> -> Training shape: X:(1767, 28, 48) Y:(1767, 48)
+2023-07-11 19:16:00.538 (28708) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:16:00.538 (28708) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:16:00.539 (28708) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:16:13.237 (17812) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:16:13.237 (17812) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:16:13.237 (17812) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:16:13.460 (17812) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:16:13.485 (17812) (INFO) MainThread.<module> -> Training shape: X:(1766, 28, 48) Y:(1766, 48)
+2023-07-11 19:16:13.485 (17812) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:16:13.485 (17812) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:16:13.485 (17812) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:16:26.195 (6388) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:16:26.196 (6388) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:16:26.196 (6388) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:16:26.407 (6388) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:16:26.432 (6388) (INFO) MainThread.<module> -> Training shape: X:(1765, 28, 48) Y:(1765, 48)
+2023-07-11 19:16:26.433 (6388) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:16:26.433 (6388) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:16:26.433 (6388) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:16:38.856 (20184) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:16:38.856 (20184) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:16:38.856 (20184) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:16:39.72 (20184) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:16:39.100 (20184) (INFO) MainThread.<module> -> Training shape: X:(1764, 28, 48) Y:(1764, 48)
+2023-07-11 19:16:39.101 (20184) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:16:39.101 (20184) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:16:39.101 (20184) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:16:52.56 (18040) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:16:52.57 (18040) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:16:52.57 (18040) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:16:52.265 (18040) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:16:52.287 (18040) (INFO) MainThread.<module> -> Training shape: X:(1763, 28, 48) Y:(1763, 48)
+2023-07-11 19:16:52.288 (18040) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:16:52.288 (18040) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:16:52.288 (18040) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:17:05.40 (39640) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:17:05.41 (39640) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:17:05.41 (39640) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:17:05.270 (39640) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:17:05.295 (39640) (INFO) MainThread.<module> -> Training shape: X:(1762, 28, 48) Y:(1762, 48)
+2023-07-11 19:17:05.295 (39640) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:17:05.295 (39640) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:17:05.295 (39640) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:17:17.624 (5268) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:17:17.624 (5268) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:17:17.625 (5268) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:17:17.838 (5268) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:17:17.866 (5268) (INFO) MainThread.<module> -> Training shape: X:(1761, 28, 48) Y:(1761, 48)
+2023-07-11 19:17:17.867 (5268) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:17:17.867 (5268) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:17:17.867 (5268) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:17:30.881 (31504) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:17:30.881 (31504) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:17:30.881 (31504) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:17:31.90 (31504) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:17:31.117 (31504) (INFO) MainThread.<module> -> Training shape: X:(1760, 28, 48) Y:(1760, 48)
+2023-07-11 19:17:31.117 (31504) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:17:31.117 (31504) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:17:31.117 (31504) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:17:44.89 (21024) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:17:44.90 (21024) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:17:44.90 (21024) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:17:44.315 (21024) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:17:44.337 (21024) (INFO) MainThread.<module> -> Training shape: X:(1759, 28, 48) Y:(1759, 48)
+2023-07-11 19:17:44.339 (21024) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:17:44.339 (21024) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:17:44.339 (21024) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:17:57.600 (16848) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:17:57.600 (16848) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:17:57.600 (16848) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:17:57.812 (16848) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:17:57.834 (16848) (INFO) MainThread.<module> -> Training shape: X:(1758, 28, 48) Y:(1758, 48)
+2023-07-11 19:17:57.834 (16848) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:17:57.835 (16848) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:17:57.835 (16848) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:18:10.525 (37148) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:18:10.525 (37148) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:18:10.526 (37148) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:18:10.759 (37148) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:18:10.790 (37148) (INFO) MainThread.<module> -> Training shape: X:(1757, 28, 48) Y:(1757, 48)
+2023-07-11 19:18:10.791 (37148) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:18:10.791 (37148) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:18:10.791 (37148) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:18:23.747 (10600) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:18:23.747 (10600) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:18:23.747 (10600) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:18:23.958 (10600) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:18:24.51 (10600) (INFO) MainThread.<module> -> Training shape: X:(1756, 28, 48) Y:(1756, 48)
+2023-07-11 19:18:24.52 (10600) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:18:24.52 (10600) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:18:24.52 (10600) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:18:36.740 (18048) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:18:36.741 (18048) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:18:36.741 (18048) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:18:36.968 (18048) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:18:37.1 (18048) (INFO) MainThread.<module> -> Training shape: X:(1755, 28, 48) Y:(1755, 48)
+2023-07-11 19:18:37.2 (18048) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:18:37.2 (18048) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:18:37.2 (18048) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:18:49.753 (23400) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:18:49.754 (23400) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:18:49.754 (23400) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:18:49.976 (23400) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:18:49.999 (23400) (INFO) MainThread.<module> -> Training shape: X:(1754, 28, 48) Y:(1754, 48)
+2023-07-11 19:18:50.0 (23400) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:18:50.0 (23400) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:18:50.0 (23400) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:19:04.497 (45408) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:19:04.498 (45408) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:19:04.499 (45408) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:19:04.788 (45408) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:19:04.820 (45408) (INFO) MainThread.<module> -> Training shape: X:(1753, 28, 48) Y:(1753, 48)
+2023-07-11 19:19:04.820 (45408) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:19:04.820 (45408) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:19:04.820 (45408) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:19:17.771 (33528) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:19:17.772 (33528) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:19:17.772 (33528) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:19:18.10 (33528) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:19:18.39 (33528) (INFO) MainThread.<module> -> Training shape: X:(1752, 28, 48) Y:(1752, 48)
+2023-07-11 19:19:18.40 (33528) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:19:18.40 (33528) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:19:18.40 (33528) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:19:31.485 (30328) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:19:31.486 (30328) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:19:31.486 (30328) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:19:31.719 (30328) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:19:31.746 (30328) (INFO) MainThread.<module> -> Training shape: X:(1751, 28, 48) Y:(1751, 48)
+2023-07-11 19:19:31.746 (30328) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:19:31.746 (30328) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:19:31.747 (30328) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:19:44.848 (34844) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:19:44.848 (34844) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:19:44.848 (34844) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:19:45.62 (34844) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:19:45.84 (34844) (INFO) MainThread.<module> -> Training shape: X:(1750, 28, 48) Y:(1750, 48)
+2023-07-11 19:19:45.84 (34844) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:19:45.84 (34844) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:19:45.84 (34844) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:19:59.833 (36444) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:19:59.834 (36444) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:19:59.834 (36444) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:20:00.105 (36444) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:20:00.133 (36444) (INFO) MainThread.<module> -> Training shape: X:(1749, 28, 48) Y:(1749, 48)
+2023-07-11 19:20:00.133 (36444) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:20:00.133 (36444) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:20:00.133 (36444) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:20:13.991 (18812) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:20:13.992 (18812) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:20:13.992 (18812) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:20:14.246 (18812) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:20:14.268 (18812) (INFO) MainThread.<module> -> Training shape: X:(1748, 28, 48) Y:(1748, 48)
+2023-07-11 19:20:14.268 (18812) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:20:14.268 (18812) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:20:14.268 (18812) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:20:27.69 (24760) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:20:27.69 (24760) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:20:27.69 (24760) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:20:27.283 (24760) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:20:27.305 (24760) (INFO) MainThread.<module> -> Training shape: X:(1747, 28, 48) Y:(1747, 48)
+2023-07-11 19:20:27.305 (24760) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:20:27.305 (24760) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:20:27.305 (24760) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:20:39.896 (37632) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:20:39.897 (37632) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:20:39.897 (37632) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:20:40.113 (37632) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:20:40.136 (37632) (INFO) MainThread.<module> -> Training shape: X:(1746, 28, 48) Y:(1746, 48)
+2023-07-11 19:20:40.137 (37632) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:20:40.137 (37632) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:20:40.137 (37632) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:20:52.696 (31860) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:20:52.696 (31860) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:20:52.697 (31860) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:20:52.904 (31860) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:20:52.927 (31860) (INFO) MainThread.<module> -> Training shape: X:(1745, 28, 48) Y:(1745, 48)
+2023-07-11 19:20:52.928 (31860) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:20:52.928 (31860) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:20:52.928 (31860) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:21:05.482 (38008) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:21:05.483 (38008) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:21:05.483 (38008) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:21:05.706 (38008) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:21:05.732 (38008) (INFO) MainThread.<module> -> Training shape: X:(1744, 28, 48) Y:(1744, 48)
+2023-07-11 19:21:05.732 (38008) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:21:05.732 (38008) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:21:05.732 (38008) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:21:18.339 (40404) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:21:18.340 (40404) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:21:18.340 (40404) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:21:18.552 (40404) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:21:18.575 (40404) (INFO) MainThread.<module> -> Training shape: X:(1743, 28, 48) Y:(1743, 48)
+2023-07-11 19:21:18.575 (40404) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:21:18.575 (40404) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:21:18.575 (40404) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:21:31.407 (18080) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:21:31.408 (18080) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:21:31.408 (18080) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:21:31.624 (18080) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:21:31.650 (18080) (INFO) MainThread.<module> -> Training shape: X:(1742, 28, 48) Y:(1742, 48)
+2023-07-11 19:21:31.650 (18080) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:21:31.650 (18080) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:21:31.650 (18080) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:21:44.137 (11328) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:21:44.137 (11328) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:21:44.138 (11328) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:21:44.354 (11328) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:21:44.376 (11328) (INFO) MainThread.<module> -> Training shape: X:(1741, 28, 48) Y:(1741, 48)
+2023-07-11 19:21:44.376 (11328) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:21:44.376 (11328) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:21:44.376 (11328) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:21:56.763 (37148) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:21:56.764 (37148) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:21:56.765 (37148) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:21:56.976 (37148) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:21:57.2 (37148) (INFO) MainThread.<module> -> Training shape: X:(1740, 28, 48) Y:(1740, 48)
+2023-07-11 19:21:57.2 (37148) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:21:57.2 (37148) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:21:57.2 (37148) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:22:09.589 (42524) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:22:09.589 (42524) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:22:09.590 (42524) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:22:09.802 (42524) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:22:09.827 (42524) (INFO) MainThread.<module> -> Training shape: X:(1739, 28, 48) Y:(1739, 48)
+2023-07-11 19:22:09.827 (42524) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:22:09.827 (42524) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:22:09.827 (42524) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:22:22.61 (14728) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:22:22.62 (14728) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:22:22.62 (14728) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:22:22.268 (14728) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:22:22.290 (14728) (INFO) MainThread.<module> -> Training shape: X:(1738, 28, 48) Y:(1738, 48)
+2023-07-11 19:22:22.290 (14728) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:22:22.290 (14728) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:22:22.290 (14728) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:22:34.679 (3256) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:22:34.680 (3256) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:22:34.680 (3256) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:22:34.891 (3256) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:22:34.916 (3256) (INFO) MainThread.<module> -> Training shape: X:(1737, 28, 48) Y:(1737, 48)
+2023-07-11 19:22:34.916 (3256) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:22:34.916 (3256) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:22:34.916 (3256) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:22:47.260 (37676) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:22:47.261 (37676) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:22:47.261 (37676) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:22:47.468 (37676) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:22:47.491 (37676) (INFO) MainThread.<module> -> Training shape: X:(1736, 28, 48) Y:(1736, 48)
+2023-07-11 19:22:47.491 (37676) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:22:47.491 (37676) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:22:47.491 (37676) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:22:59.847 (1316) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:22:59.847 (1316) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:22:59.847 (1316) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:23:00.93 (1316) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:23:00.121 (1316) (INFO) MainThread.<module> -> Training shape: X:(1735, 28, 48) Y:(1735, 48)
+2023-07-11 19:23:00.121 (1316) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:23:00.121 (1316) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:23:00.121 (1316) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:23:12.476 (26636) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:23:12.477 (26636) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:23:12.477 (26636) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:23:12.683 (26636) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:23:12.706 (26636) (INFO) MainThread.<module> -> Training shape: X:(1734, 28, 48) Y:(1734, 48)
+2023-07-11 19:23:12.706 (26636) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:23:12.706 (26636) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:23:12.707 (26636) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:23:24.966 (25256) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:23:24.966 (25256) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:23:24.966 (25256) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:23:25.178 (25256) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:23:25.199 (25256) (INFO) MainThread.<module> -> Training shape: X:(1733, 28, 48) Y:(1733, 48)
+2023-07-11 19:23:25.199 (25256) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:23:25.200 (25256) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:23:25.200 (25256) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:23:37.642 (43504) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:23:37.642 (43504) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:23:37.642 (43504) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:23:37.861 (43504) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:23:37.883 (43504) (INFO) MainThread.<module> -> Training shape: X:(1732, 28, 48) Y:(1732, 48)
+2023-07-11 19:23:37.883 (43504) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:23:37.884 (43504) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:23:37.884 (43504) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:23:50.243 (1224) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:23:50.243 (1224) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:23:50.243 (1224) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:23:50.469 (1224) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:23:50.492 (1224) (INFO) MainThread.<module> -> Training shape: X:(1731, 28, 48) Y:(1731, 48)
+2023-07-11 19:23:50.492 (1224) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:23:50.492 (1224) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:23:50.492 (1224) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:24:02.837 (44480) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:24:02.839 (44480) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:24:02.839 (44480) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:24:03.60 (44480) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:24:03.82 (44480) (INFO) MainThread.<module> -> Training shape: X:(1730, 28, 48) Y:(1730, 48)
+2023-07-11 19:24:03.82 (44480) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:24:03.82 (44480) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:24:03.82 (44480) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:24:15.446 (21184) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:24:15.446 (21184) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:24:15.447 (21184) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:24:15.665 (21184) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:24:15.687 (21184) (INFO) MainThread.<module> -> Training shape: X:(1729, 28, 48) Y:(1729, 48)
+2023-07-11 19:24:15.688 (21184) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:24:15.688 (21184) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:24:15.688 (21184) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:24:28.331 (21996) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:24:28.332 (21996) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:24:28.332 (21996) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:24:28.552 (21996) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:24:28.584 (21996) (INFO) MainThread.<module> -> Training shape: X:(1728, 28, 48) Y:(1728, 48)
+2023-07-11 19:24:28.584 (21996) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:24:28.584 (21996) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:24:28.584 (21996) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:24:40.945 (39308) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:24:40.946 (39308) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:24:40.946 (39308) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:24:41.161 (39308) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:24:41.187 (39308) (INFO) MainThread.<module> -> Training shape: X:(1727, 28, 48) Y:(1727, 48)
+2023-07-11 19:24:41.188 (39308) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:24:41.188 (39308) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:24:41.188 (39308) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:24:53.520 (36912) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:24:53.521 (36912) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:24:53.521 (36912) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:24:53.738 (36912) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:24:53.763 (36912) (INFO) MainThread.<module> -> Training shape: X:(1726, 28, 48) Y:(1726, 48)
+2023-07-11 19:24:53.763 (36912) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:24:53.763 (36912) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:24:53.763 (36912) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:25:06.496 (36388) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:25:06.497 (36388) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:25:06.497 (36388) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:25:06.730 (36388) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:25:06.760 (36388) (INFO) MainThread.<module> -> Training shape: X:(1725, 28, 48) Y:(1725, 48)
+2023-07-11 19:25:06.760 (36388) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:25:06.760 (36388) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:25:06.760 (36388) (INFO) MainThread.<module> -> Creating model
+2023-07-11 19:25:19.573 (33972) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 19:25:19.575 (33972) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 19:25:19.576 (33972) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 19:25:19.804 (33972) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 19:25:19.825 (33972) (INFO) MainThread.<module> -> Training shape: X:(1724, 28, 48) Y:(1724, 48)
+2023-07-11 19:25:19.826 (33972) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 19:25:19.826 (33972) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 19:25:19.826 (33972) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:25:55.412 (14916) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:25:55.413 (14916) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:25:55.413 (14916) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:25:55.623 (14916) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:25:55.653 (14916) (INFO) MainThread.<module> -> Training shape: X:(1772, 28, 48) Y:(1772, 48)
+2023-07-11 22:25:55.653 (14916) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:25:55.653 (14916) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:25:55.654 (14916) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:38:10.468 (34000) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:38:10.469 (34000) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:38:10.469 (34000) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:38:10.570 (34000) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:38:10.588 (34000) (INFO) MainThread.<module> -> Training shape: X:(1773, 28, 48) Y:(1773, 48)
+2023-07-11 22:38:10.588 (34000) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:38:10.588 (34000) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:38:10.588 (34000) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:38:19.568 (35024) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:38:19.569 (35024) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:38:19.569 (35024) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:38:19.670 (35024) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:38:19.685 (35024) (INFO) MainThread.<module> -> Training shape: X:(1772, 28, 48) Y:(1772, 48)
+2023-07-11 22:38:19.686 (35024) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:38:19.686 (35024) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:38:19.686 (35024) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:38:28.590 (37964) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:38:28.590 (37964) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:38:28.590 (37964) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:38:28.712 (37964) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:38:28.727 (37964) (INFO) MainThread.<module> -> Training shape: X:(1771, 28, 48) Y:(1771, 48)
+2023-07-11 22:38:28.729 (37964) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:38:28.729 (37964) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:38:28.729 (37964) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:38:42.427 (11044) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:38:42.427 (11044) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:38:42.428 (11044) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:38:42.539 (11044) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:38:42.554 (11044) (INFO) MainThread.<module> -> Training shape: X:(1773, 28, 48) Y:(1773, 48)
+2023-07-11 22:38:42.554 (11044) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:38:42.554 (11044) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:38:42.554 (11044) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:38:50.966 (34296) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:38:50.966 (34296) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:38:50.966 (34296) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:38:51.61 (34296) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:38:51.77 (34296) (INFO) MainThread.<module> -> Training shape: X:(1772, 28, 48) Y:(1772, 48)
+2023-07-11 22:38:51.77 (34296) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:38:51.77 (34296) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:38:51.77 (34296) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:38:59.262 (44604) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:38:59.262 (44604) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:38:59.263 (44604) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:38:59.359 (44604) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:38:59.374 (44604) (INFO) MainThread.<module> -> Training shape: X:(1771, 28, 48) Y:(1771, 48)
+2023-07-11 22:38:59.374 (44604) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:38:59.374 (44604) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:38:59.374 (44604) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:39:07.414 (1224) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:39:07.415 (1224) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:39:07.415 (1224) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:39:07.511 (1224) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:39:07.535 (1224) (INFO) MainThread.<module> -> Training shape: X:(1770, 28, 48) Y:(1770, 48)
+2023-07-11 22:39:07.535 (1224) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:39:07.535 (1224) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:39:07.535 (1224) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:39:15.468 (11076) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:39:15.468 (11076) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:39:15.468 (11076) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:39:15.565 (11076) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:39:15.583 (11076) (INFO) MainThread.<module> -> Training shape: X:(1769, 28, 48) Y:(1769, 48)
+2023-07-11 22:39:15.583 (11076) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:39:15.583 (11076) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:39:15.583 (11076) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:39:23.688 (27180) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:39:23.688 (27180) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:39:23.688 (27180) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:39:23.805 (27180) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:39:23.820 (27180) (INFO) MainThread.<module> -> Training shape: X:(1768, 28, 48) Y:(1768, 48)
+2023-07-11 22:39:23.821 (27180) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:39:23.821 (27180) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:39:23.821 (27180) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:39:31.884 (45864) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:39:31.884 (45864) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:39:31.884 (45864) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:39:31.977 (45864) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:39:31.991 (45864) (INFO) MainThread.<module> -> Training shape: X:(1767, 28, 48) Y:(1767, 48)
+2023-07-11 22:39:31.991 (45864) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:39:31.991 (45864) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:39:31.991 (45864) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:39:40.211 (24428) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:39:40.212 (24428) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:39:40.212 (24428) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:39:40.305 (24428) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:39:40.321 (24428) (INFO) MainThread.<module> -> Training shape: X:(1766, 28, 48) Y:(1766, 48)
+2023-07-11 22:39:40.321 (24428) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:39:40.321 (24428) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:39:40.321 (24428) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:39:48.485 (28424) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:39:48.486 (28424) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:39:48.487 (28424) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:39:48.583 (28424) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:39:48.601 (28424) (INFO) MainThread.<module> -> Training shape: X:(1765, 28, 48) Y:(1765, 48)
+2023-07-11 22:39:48.601 (28424) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:39:48.601 (28424) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:39:48.601 (28424) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:39:56.606 (4576) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:39:56.606 (4576) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:39:56.606 (4576) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:39:56.700 (4576) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:39:56.719 (4576) (INFO) MainThread.<module> -> Training shape: X:(1764, 28, 48) Y:(1764, 48)
+2023-07-11 22:39:56.719 (4576) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:39:56.719 (4576) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:39:56.719 (4576) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:40:05.656 (13708) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:40:05.657 (13708) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:40:05.657 (13708) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:40:05.794 (13708) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:40:05.810 (13708) (INFO) MainThread.<module> -> Training shape: X:(1763, 28, 48) Y:(1763, 48)
+2023-07-11 22:40:05.810 (13708) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:40:05.810 (13708) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:40:05.810 (13708) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:40:56.445 (13056) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:40:56.446 (13056) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:40:56.446 (13056) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:40:56.543 (13056) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:40:56.559 (13056) (INFO) MainThread.<module> -> Training shape: X:(1772, 28, 48) Y:(1772, 48)
+2023-07-11 22:40:56.559 (13056) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:40:56.559 (13056) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:40:56.559 (13056) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:40:57.305 (13056) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2023-07-11 22:40:57.305 (13056) (INFO) MainThread.<module> -> Training model ... 
+2023-07-11 22:41:34.361 (13056) (INFO) MainThread.train -> Training time took: 0:00:37.055921
+2023-07-11 22:41:34.362 (13056) (INFO) MainThread.PlotHistory -> Plotting history ...
+2023-07-11 22:41:35.70 (13056) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2023-07-11 22:41:35.129 (13056) (INFO) MainThread.SaveResults -> Saving results ...
+2023-07-11 22:41:35.135 (13056) (INFO) MainThread.SaveHistory ->  Saving history ...
+2023-07-11 22:41:35.139 (13056) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.018777, RSE:0.171830, Correlation:0.234514
+2023-07-11 22:42:26.671 (39512) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:42:26.672 (39512) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:42:26.672 (39512) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:42:26.770 (39512) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:42:26.786 (39512) (INFO) MainThread.<module> -> Training shape: X:(1773, 28, 48) Y:(1773, 48)
+2023-07-11 22:42:26.786 (39512) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:42:26.786 (39512) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:42:26.786 (39512) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:42:27.418 (39512) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2023-07-11 22:42:27.418 (39512) (INFO) MainThread.<module> -> Training model ... 
+2023-07-11 22:43:04.301 (39512) (INFO) MainThread.train -> Training time took: 0:00:36.882536
+2023-07-11 22:43:04.301 (39512) (INFO) MainThread.PlotHistory -> Plotting history ...
+2023-07-11 22:43:04.821 (39512) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2023-07-11 22:43:04.853 (39512) (INFO) MainThread.SaveResults -> Saving results ...
+2023-07-11 22:43:04.858 (39512) (INFO) MainThread.SaveHistory ->  Saving history ...
+2023-07-11 22:43:04.865 (39512) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.007634, RSE:0.069371, Correlation:0.783578
+2023-07-11 22:52:46.746 (18744) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:52:46.747 (18744) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:52:46.747 (18744) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:52:46.841 (18744) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:52:46.860 (18744) (INFO) MainThread.<module> -> Training shape: X:(1773, 28, 48) Y:(1773, 48)
+2023-07-11 22:52:46.860 (18744) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:52:46.860 (18744) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:52:46.860 (18744) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:52:47.599 (18744) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2023-07-11 22:52:47.599 (18744) (INFO) MainThread.<module> -> Training model ... 
+2023-07-11 22:53:23.845 (18744) (INFO) MainThread.train -> Training time took: 0:00:36.245561
+2023-07-11 22:53:23.845 (18744) (INFO) MainThread.PlotHistory -> Plotting history ...
+2023-07-11 22:53:24.348 (18744) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2023-07-11 22:53:24.404 (18744) (INFO) MainThread.SaveResults -> Saving results ...
+2023-07-11 22:53:24.409 (18744) (INFO) MainThread.SaveHistory ->  Saving history ...
+2023-07-11 22:53:24.412 (18744) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.018497, RSE:0.169711, Correlation:0.186343
+2023-07-11 22:54:16.744 (42356) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-11 22:54:16.744 (42356) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-11 22:54:16.744 (42356) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-11 22:54:16.862 (42356) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-11 22:54:16.878 (42356) (INFO) MainThread.<module> -> Training shape: X:(1773, 28, 48) Y:(1773, 48)
+2023-07-11 22:54:16.878 (42356) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-11 22:54:16.878 (42356) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-11 22:54:16.879 (42356) (INFO) MainThread.<module> -> Creating model
+2023-07-11 22:54:17.468 (42356) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2023-07-11 22:54:17.468 (42356) (INFO) MainThread.<module> -> Training model ... 
+2023-07-11 22:54:59.249 (42356) (INFO) MainThread.train -> Training time took: 0:00:41.779879
+2023-07-11 22:54:59.251 (42356) (INFO) MainThread.PlotHistory -> Plotting history ...
+2023-07-11 22:55:00.362 (42356) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2023-07-11 22:55:00.363 (42356) (WARNING) MainThread.SaveModel -> File save/large_portfolio_0.json already exists. Backing it up to save/large_portfolio_020230711.json
+2023-07-11 22:55:00.396 (42356) (WARNING) MainThread.SaveModel -> File save/large_portfolio_0.h5 already exists. Backing it up to save/large_portfolio_020230711.h5
+2023-07-11 22:55:00.512 (42356) (INFO) MainThread.SaveResults -> Saving results ...
+2023-07-11 22:55:00.513 (42356) (WARNING) MainThread.SaveResults -> File save/large_portfolio_0.txt already exists. Backing it up to save/large_portfolio_020230711.txt
+2023-07-11 22:55:00.533 (42356) (INFO) MainThread.SaveHistory ->  Saving history ...
+2023-07-11 22:55:00.534 (42356) (WARNING) MainThread.SaveHistory -> File save/large_portfolio_0_history.csv already exists. Backing it up to save/large_portfolio_020230711_history.csv
+2023-07-11 22:55:00.551 (42356) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.014328, RSE:0.130663, Correlation:0.395590

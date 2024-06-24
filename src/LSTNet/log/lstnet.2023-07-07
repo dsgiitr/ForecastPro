@@ -1,0 +1,48 @@
+2023-07-07 16:57:41.699 (5156) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-07 16:57:41.707 (5156) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-07 16:57:41.707 (5156) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-07 16:57:41.982 (5156) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-07 16:57:42.11 (5156) (INFO) MainThread.<module> -> Training shape: X:(1772, 28, 48) Y:(1772, 48)
+2023-07-07 16:57:42.12 (5156) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-07 16:57:42.12 (5156) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-07 16:57:42.12 (5156) (INFO) MainThread.<module> -> Creating model
+2023-07-07 16:57:43.267 (5156) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2023-07-07 16:57:43.267 (5156) (INFO) MainThread.<module> -> Training model ... 
+2023-07-07 16:58:38.899 (5156) (INFO) MainThread.train -> Training time took: 0:00:55.631783
+2023-07-07 16:58:38.900 (5156) (INFO) MainThread.PlotHistory -> Plotting history ...
+2023-07-07 17:09:01.93 (1792) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-07 17:09:01.94 (1792) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-07 17:09:01.94 (1792) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-07 17:09:01.301 (1792) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-07 17:09:01.326 (1792) (INFO) MainThread.<module> -> Training shape: X:(1772, 28, 48) Y:(1772, 48)
+2023-07-07 17:09:01.327 (1792) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-07 17:09:01.327 (1792) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-07 17:09:01.327 (1792) (INFO) MainThread.<module> -> Creating model
+2023-07-07 17:09:02.263 (1792) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2023-07-07 17:09:02.263 (1792) (INFO) MainThread.<module> -> Training model ... 
+2023-07-07 17:10:03.101 (1792) (INFO) MainThread.train -> Training time took: 0:01:00.837503
+2023-07-07 17:10:03.102 (1792) (INFO) MainThread.PlotHistory -> Plotting history ...
+2023-07-07 17:10:24.332 (1792) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2023-07-07 17:10:24.415 (1792) (INFO) MainThread.SaveResults -> Saving results ...
+2023-07-07 17:10:24.428 (1792) (INFO) MainThread.SaveHistory ->  Saving history ...
+2023-07-07 17:10:24.437 (1792) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.014865, RSE:0.133367, Correlation:0.447083
+2023-07-07 22:34:14.458 (25820) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-07 22:34:14.460 (25820) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-07 22:34:14.460 (25820) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-07 22:34:14.658 (25820) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-07 22:34:14.680 (25820) (INFO) MainThread.<module> -> Training shape: X:(1772, 28, 48) Y:(1772, 48)
+2023-07-07 22:34:14.681 (25820) (INFO) MainThread.<module> -> Validation shape: X:(1200, 28, 48) Y:(1200, 48)
+2023-07-07 22:34:14.681 (25820) (INFO) MainThread.<module> -> Testing shape: X:(0, 28, 48) Y:(0, 48)
+2023-07-07 22:34:14.681 (25820) (INFO) MainThread.<module> -> Creating model
+2023-07-07 22:34:16.20 (25820) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2023-07-07 22:34:16.21 (25820) (INFO) MainThread.<module> -> Training model ... 
+2023-07-07 22:35:29.613 (25820) (INFO) MainThread.train -> Training time took: 0:01:13.592066
+2023-07-07 22:35:29.615 (25820) (INFO) MainThread.PlotHistory -> Plotting history ...
+2023-07-07 22:47:43.192 (25820) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2023-07-07 22:47:43.194 (25820) (WARNING) MainThread.SaveModel -> File save/portfolio.json already exists. Backing it up to save/portfolio20230707.json
+2023-07-07 22:47:43.264 (25820) (WARNING) MainThread.SaveModel -> File save/portfolio.h5 already exists. Backing it up to save/portfolio20230707.h5
+2023-07-07 22:47:43.436 (25820) (INFO) MainThread.SaveResults -> Saving results ...
+2023-07-07 22:47:43.437 (25820) (WARNING) MainThread.SaveResults -> File save/portfolio.txt already exists. Backing it up to save/portfolio20230707.txt
+2023-07-07 22:47:43.483 (25820) (INFO) MainThread.SaveHistory ->  Saving history ...
+2023-07-07 22:47:43.484 (25820) (WARNING) MainThread.SaveHistory -> File save/portfolio_history.csv already exists. Backing it up to save/portfolio20230707_history.csv
+2023-07-07 22:47:43.512 (25820) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.016993, RSE:0.152989, Correlation:0.289156

@@ -1,0 +1,74 @@
+System Info:
+	Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+	TensorFlow version: 2.9.1
+	Keras version: 2.9.0
+
+Training Info:
+	Loss Function: mean_absolute_error
+	Optimisation Method: Adam
+	Learning Rate: 0.001
+	Batch Size: 32
+	Number of Epochs: 100
+
+Training Results:
+	Loss: 0.011026531457901001
+	Rse: 0.12109238654375076
+	Corr: 0.9164903163909912
+
+Validation Results:
+	Loss: 0.21176712214946747
+	Rse: 2.448870897293091
+	Corr: 0.015039428137242794
+
+Model Summary:
+	Model: "model"
+	__________________________________________________________________________________________________
+	 Layer (type)                   Output Shape         Param #     Connected to                     
+	==================================================================================================
+	 input_1 (InputLayer)           [(None, 48, 4)]      0           []                               
+	                                                                                                  
+	 reshape (Reshape)              (None, 48, 4, 1)     0           ['input_1[0][0]']                
+	                                                                                                  
+	 conv2d (Conv2D)                (None, 43, 1, 100)   2500        ['reshape[0][0]']                
+	                                                                                                  
+	 dropout (Dropout)              (None, 43, 1, 100)   0           ['conv2d[0][0]']                 
+	                                                                                                  
+	 reshape_1 (Reshape)            (None, 43, 100)      0           ['dropout[0][0]']                
+	                                                                                                  
+	 pre_skip_trans (PreSkipTrans)  (None, 2, 100)       0           ['reshape_1[0][0]']              
+	                                                                                                  
+	 gru (GRU)                      [(None, 100),        60600       ['reshape_1[0][0]']              
+	                                 (None, 100)]                                                     
+	                                                                                                  
+	 gru_1 (GRU)                    [(None, 5),          1605        ['pre_skip_trans[0][0]']         
+	                                 (None, 5)]                                                       
+	                                                                                                  
+	 dropout_1 (Dropout)            (None, 100)          0           ['gru[0][1]']                    
+	                                                                                                  
+	 post_skip_trans (PostSkipTrans  (None, 105)         0           ['gru_1[0][1]',                  
+	 )                                                                'input_1[0][0]']                
+	                                                                                                  
+	 pre_ar_trans (PreARTrans)      (None, 24)           0           ['input_1[0][0]']                
+	                                                                                                  
+	 concatenate (Concatenate)      (None, 205)          0           ['dropout_1[0][0]',              
+	                                                                  'post_skip_trans[0][0]']        
+	                                                                                                  
+	 flatten_1 (Flatten)            (None, 24)           0           ['pre_ar_trans[0][0]']           
+	                                                                                                  
+	 flatten (Flatten)              (None, 205)          0           ['concatenate[0][0]']            
+	                                                                                                  
+	 dense_1 (Dense)                (None, 1)            25          ['flatten_1[0][0]']              
+	                                                                                                  
+	 dense (Dense)                  (None, 4)            824         ['flatten[0][0]']                
+	                                                                                                  
+	 post_ar_trans (PostARTrans)    (None, 4)            0           ['dense_1[0][0]',                
+	                                                                  'input_1[0][0]']                
+	                                                                                                  
+	 add (Add)                      (None, 4)            0           ['dense[0][0]',                  
+	                                                                  'post_ar_trans[0][0]']          
+	                                                                                                  
+	==================================================================================================
+	Total params: 65,554
+	Trainable params: 65,554
+	Non-trainable params: 0
+	__________________________________________________________________________________________________

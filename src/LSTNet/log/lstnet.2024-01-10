@@ -1,0 +1,345 @@
+2023-07-26 20:44:41.258 (5164) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-07-26 20:44:41.265 (5164) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-07-26 20:44:41.269 (5164) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-07-26 20:44:41.354 (5164) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2023-07-26 20:44:41.362 (5164) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2023-07-26 20:44:41.362 (5164) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2023-07-26 20:44:41.362 (5164) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2023-07-26 20:44:41.362 (5164) (INFO) MainThread.<module> -> Creating model
+2023-07-26 20:44:42.684 (5164) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2023-07-26 20:44:42.684 (5164) (INFO) MainThread.<module> -> Training model ... 
+2023-07-26 20:45:19.967 (5164) (INFO) MainThread.train -> Training time took: 0:00:37.282837
+2023-07-26 20:45:19.967 (5164) (INFO) MainThread.PlotHistory -> Plotting history ...
+2023-07-26 20:45:20.890 (5164) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2023-07-26 20:45:20.897 (5164) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.json already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720230726.json
+2023-07-26 20:45:20.930 (5164) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.h5 already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720230726.h5
+2023-07-26 20:45:21.30 (5164) (INFO) MainThread.SaveResults -> Saving results ...
+2023-07-26 20:45:21.30 (5164) (WARNING) MainThread.SaveResults -> File save/large_portfolio_horizon1_window7_skip7.txt already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720230726.txt
+2023-07-26 20:45:21.74 (5164) (INFO) MainThread.SaveHistory ->  Saving history ...
+2023-07-26 20:45:21.74 (5164) (WARNING) MainThread.SaveHistory -> File save/large_portfolio_horizon1_window7_skip7_history.csv already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720230726_history.csv
+2023-07-26 20:45:21.105 (5164) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.015562, RSE:0.147899, Correlation:0.559523
+2024-01-10 19:07:49.504 (81007) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:07:49.505 (81007) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:11:55.574 (81081) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:11:55.574 (81081) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:11:55.574 (81081) (ERROR) MainThread.__init__ -> Error opening data file ... [Errno 2] No such file or directory: 'datalarge_portfolio.txt'
+2024-01-10 19:11:55.575 (81081) (CRITICAL) MainThread.<module> -> Could not load data!! Exiting
+2024-01-10 19:15:48.139 (81133) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:15:48.140 (81133) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:15:48.140 (81133) (ERROR) MainThread.__init__ -> Error opening data file ... [Errno 2] No such file or directory: '/Users/ved14/Desktop/extracurriculars/ForecastPro-1/src/data/large_portfolio.txt'
+2024-01-10 19:15:48.140 (81133) (CRITICAL) MainThread.<module> -> Could not load data!! Exiting
+2024-01-10 19:17:05.785 (81194) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:17:05.786 (81194) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:17:05.793 (81194) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:17:05.794 (81194) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:17:05.794 (81194) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:17:05.794 (81194) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:17:05.794 (81194) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:19:03.552 (81236) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:19:03.553 (81236) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:19:03.560 (81236) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:19:03.561 (81236) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:19:03.561 (81236) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:19:03.561 (81236) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:19:03.561 (81236) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:19:03.755 (81236) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:19:03.755 (81236) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:23:39.833 (81328) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:23:39.833 (81328) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:23:39.840 (81328) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:23:39.841 (81328) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:23:39.841 (81328) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:23:39.841 (81328) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:23:39.841 (81328) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:23:40.18 (81328) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:23:40.18 (81328) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:25:54.281 (81409) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:25:54.281 (81409) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:25:54.289 (81409) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:25:54.290 (81409) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:25:54.290 (81409) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:25:54.290 (81409) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:25:54.290 (81409) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:25:54.471 (81409) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:25:54.471 (81409) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:26:54.168 (81438) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:26:54.169 (81438) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:26:54.177 (81438) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:26:54.177 (81438) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:26:54.177 (81438) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:26:54.177 (81438) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:26:54.177 (81438) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:26:54.319 (81438) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:26:54.319 (81438) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:28:24.593 (81457) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:28:24.593 (81457) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:28:24.602 (81457) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:28:24.603 (81457) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:28:24.603 (81457) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:28:24.603 (81457) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:28:24.603 (81457) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:28:24.779 (81457) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:28:24.779 (81457) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:31:16.110 (81540) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:31:16.111 (81540) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:31:16.118 (81540) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:31:16.119 (81540) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:31:16.119 (81540) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:31:16.119 (81540) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:31:16.119 (81540) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:31:16.295 (81540) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:31:16.295 (81540) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:37:34.344 (81651) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:37:34.345 (81651) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:37:34.352 (81651) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:37:34.353 (81651) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:37:34.353 (81651) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:37:34.353 (81651) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:37:34.353 (81651) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:37:34.528 (81651) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:37:34.528 (81651) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:39:17.800 (81685) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:39:17.801 (81685) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:39:17.808 (81685) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:39:17.809 (81685) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:39:17.809 (81685) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:39:17.809 (81685) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:39:17.809 (81685) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:39:17.955 (81685) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:39:17.956 (81685) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:44:14.775 (81809) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:44:14.776 (81809) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:44:14.783 (81809) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:44:14.784 (81809) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:44:14.784 (81809) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:44:14.784 (81809) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:44:14.784 (81809) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:44:14.965 (81809) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:44:14.965 (81809) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:44:20.88 (81809) (INFO) MainThread.train -> Training time took: 0:00:05.122792
+2024-01-10 19:44:20.88 (81809) (INFO) MainThread.PlotHistory -> Plotting history ...
+2024-01-10 19:47:17.687 (81861) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:47:17.688 (81861) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:47:17.695 (81861) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:47:17.696 (81861) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:47:17.696 (81861) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:47:17.696 (81861) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:47:17.696 (81861) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:47:17.869 (81861) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:47:17.869 (81861) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:47:23.5 (81861) (INFO) MainThread.train -> Training time took: 0:00:05.136195
+2024-01-10 19:47:23.5 (81861) (INFO) MainThread.PlotHistory -> Plotting history ...
+2024-01-10 19:47:23.239 (81861) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2024-01-10 19:47:23.271 (81861) (INFO) MainThread.SaveResults -> Saving results ...
+2024-01-10 19:49:24.26 (81910) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:49:24.26 (81910) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:49:24.34 (81910) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:49:24.35 (81910) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:49:24.35 (81910) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:49:24.35 (81910) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:49:24.35 (81910) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:49:24.194 (81910) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:49:24.194 (81910) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:49:29.531 (81910) (INFO) MainThread.train -> Training time took: 0:00:05.337243
+2024-01-10 19:49:29.531 (81910) (INFO) MainThread.PlotHistory -> Plotting history ...
+2024-01-10 19:49:29.842 (81910) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2024-01-10 19:49:29.842 (81910) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.json already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.json
+2024-01-10 19:49:29.846 (81910) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.h5 already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.h5
+2024-01-10 19:49:29.855 (81910) (INFO) MainThread.SaveResults -> Saving results ...
+2024-01-10 19:49:29.855 (81910) (WARNING) MainThread.SaveResults -> File save/large_portfolio_horizon1_window7_skip7.txt already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.txt
+2024-01-10 19:50:09.475 (81949) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:50:09.475 (81949) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:50:09.483 (81949) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:50:09.484 (81949) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:50:09.484 (81949) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:50:09.484 (81949) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:50:09.484 (81949) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:50:09.625 (81949) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:50:09.626 (81949) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:50:16.441 (81949) (INFO) MainThread.train -> Training time took: 0:00:06.815262
+2024-01-10 19:50:16.442 (81949) (INFO) MainThread.PlotHistory -> Plotting history ...
+2024-01-10 19:50:16.830 (81949) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2024-01-10 19:50:16.830 (81949) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.json already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.json
+2024-01-10 19:50:16.834 (81949) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.h5 already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.h5
+2024-01-10 19:50:16.843 (81949) (INFO) MainThread.SaveResults -> Saving results ...
+2024-01-10 19:50:16.843 (81949) (WARNING) MainThread.SaveResults -> File save/large_portfolio_horizon1_window7_skip7.txt already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.txt
+2024-01-10 19:50:16.844 (81949) (INFO) MainThread.SaveHistory ->  Saving history ...
+2024-01-10 19:50:16.845 (81949) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.025187, RSE:0.224776, Correlation:0.527341
+2024-01-10 19:56:22.93 (82089) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:56:22.93 (82089) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:56:22.101 (82089) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:56:22.101 (82089) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:56:22.101 (82089) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:56:22.101 (82089) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:56:22.101 (82089) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:56:22.292 (82089) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:56:22.292 (82089) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:56:29.378 (82089) (INFO) MainThread.train -> Training time took: 0:00:07.085613
+2024-01-10 19:56:29.378 (82089) (INFO) MainThread.PlotHistory -> Plotting history ...
+2024-01-10 19:56:29.732 (82089) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2024-01-10 19:56:29.732 (82089) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.json already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.json
+2024-01-10 19:56:29.736 (82089) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.h5 already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.h5
+2024-01-10 19:56:29.764 (82089) (INFO) MainThread.SaveResults -> Saving results ...
+2024-01-10 19:56:29.764 (82089) (WARNING) MainThread.SaveResults -> File save/large_portfolio_horizon1_window7_skip7.txt already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.txt
+2024-01-10 19:56:29.766 (82089) (INFO) MainThread.SaveHistory ->  Saving history ...
+2024-01-10 19:56:29.766 (82089) (WARNING) MainThread.SaveHistory -> File save/large_portfolio_horizon1_window7_skip7_history.csv already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110_history.csv
+2024-01-10 19:56:29.767 (82089) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.034811, RSE:0.309270, Correlation:0.267827
+2024-01-10 19:57:54.794 (82134) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:57:54.794 (82134) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:57:54.802 (82134) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:57:54.803 (82134) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:57:54.803 (82134) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:57:54.803 (82134) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:57:54.803 (82134) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:57:54.944 (82134) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:57:54.944 (82134) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:58:01.886 (82134) (INFO) MainThread.train -> Training time took: 0:00:06.941699
+2024-01-10 19:58:01.886 (82134) (INFO) MainThread.PlotHistory -> Plotting history ...
+2024-01-10 19:58:02.234 (82134) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2024-01-10 19:58:02.235 (82134) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.json already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.json
+2024-01-10 19:58:02.238 (82134) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.h5 already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.h5
+2024-01-10 19:58:02.247 (82134) (INFO) MainThread.SaveResults -> Saving results ...
+2024-01-10 19:58:02.247 (82134) (WARNING) MainThread.SaveResults -> File save/large_portfolio_horizon1_window7_skip7.txt already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.txt
+2024-01-10 19:58:02.248 (82134) (INFO) MainThread.SaveHistory ->  Saving history ...
+2024-01-10 19:58:02.249 (82134) (WARNING) MainThread.SaveHistory -> File save/large_portfolio_horizon1_window7_skip7_history.csv already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110_history.csv
+2024-01-10 19:58:02.249 (82134) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.012791, RSE:0.122144, Correlation:0.615181
+2024-01-10 19:58:56.902 (82166) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 19:58:56.902 (82166) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 19:58:56.909 (82166) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 19:58:56.910 (82166) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 19:58:56.910 (82166) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 19:58:56.910 (82166) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 19:58:56.910 (82166) (INFO) MainThread.<module> -> Creating model
+2024-01-10 19:58:57.50 (82166) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 19:58:57.50 (82166) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 19:59:04.17 (82166) (INFO) MainThread.train -> Training time took: 0:00:06.966928
+2024-01-10 19:59:04.18 (82166) (INFO) MainThread.PlotHistory -> Plotting history ...
+2024-01-10 19:59:04.397 (82166) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2024-01-10 19:59:04.398 (82166) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.json already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.json
+2024-01-10 19:59:04.403 (82166) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.h5 already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.h5
+2024-01-10 19:59:04.419 (82166) (INFO) MainThread.SaveResults -> Saving results ...
+2024-01-10 19:59:04.419 (82166) (WARNING) MainThread.SaveResults -> File save/large_portfolio_horizon1_window7_skip7.txt already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.txt
+2024-01-10 19:59:04.421 (82166) (INFO) MainThread.SaveHistory ->  Saving history ...
+2024-01-10 19:59:04.421 (82166) (WARNING) MainThread.SaveHistory -> File save/large_portfolio_horizon1_window7_skip7_history.csv already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110_history.csv
+2024-01-10 19:59:04.422 (82166) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.020907, RSE:0.196820, Correlation:0.260017
+2024-01-10 20:04:21.443 (82386) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 20:04:21.443 (82386) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 20:04:21.451 (82386) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 20:04:21.452 (82386) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 20:04:21.452 (82386) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 20:04:21.452 (82386) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 20:04:21.452 (82386) (INFO) MainThread.<module> -> Creating model
+2024-01-10 20:04:21.625 (82386) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 20:04:21.625 (82386) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 20:04:28.447 (82386) (INFO) MainThread.train -> Training time took: 0:00:06.822260
+2024-01-10 20:04:28.448 (82386) (INFO) MainThread.PlotHistory -> Plotting history ...
+2024-01-10 20:04:28.820 (82386) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2024-01-10 20:04:28.820 (82386) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.json already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.json
+2024-01-10 20:04:28.825 (82386) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.h5 already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.h5
+2024-01-10 20:04:28.858 (82386) (INFO) MainThread.SaveResults -> Saving results ...
+2024-01-10 20:04:28.858 (82386) (WARNING) MainThread.SaveResults -> File save/large_portfolio_horizon1_window7_skip7.txt already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.txt
+2024-01-10 20:04:28.859 (82386) (INFO) MainThread.SaveHistory ->  Saving history ...
+2024-01-10 20:04:28.859 (82386) (WARNING) MainThread.SaveHistory -> File save/large_portfolio_horizon1_window7_skip7_history.csv already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110_history.csv
+2024-01-10 20:04:28.860 (82386) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.014913, RSE:0.140236, Correlation:0.590103
+2024-01-10 21:21:48.179 (82774) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 21:21:48.180 (82774) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 21:21:48.188 (82774) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 21:21:48.188 (82774) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 21:21:48.188 (82774) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 21:21:48.188 (82774) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 21:21:48.188 (82774) (INFO) MainThread.<module> -> Creating model
+2024-01-10 21:21:48.374 (82774) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 21:21:48.374 (82774) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 21:21:55.523 (82774) (INFO) MainThread.train -> Training time took: 0:00:07.148987
+2024-01-10 21:21:55.523 (82774) (INFO) MainThread.PlotHistory -> Plotting history ...
+2024-01-10 21:21:55.897 (82774) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2024-01-10 21:21:55.897 (82774) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.json already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.json
+2024-01-10 21:21:55.901 (82774) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.h5 already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.h5
+2024-01-10 21:21:55.923 (82774) (INFO) MainThread.SaveResults -> Saving results ...
+2024-01-10 21:21:55.923 (82774) (WARNING) MainThread.SaveResults -> File save/large_portfolio_horizon1_window7_skip7.txt already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.txt
+2024-01-10 21:21:55.925 (82774) (INFO) MainThread.SaveHistory ->  Saving history ...
+2024-01-10 21:21:55.925 (82774) (WARNING) MainThread.SaveHistory -> File save/large_portfolio_horizon1_window7_skip7_history.csv already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110_history.csv
+2024-01-10 21:21:55.926 (82774) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.017739, RSE:0.168227, Correlation:0.400385
+2024-01-10 22:19:04.187 (83186) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 22:19:04.188 (83186) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 22:19:04.195 (83186) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 22:19:04.196 (83186) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 22:19:04.196 (83186) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 22:19:04.196 (83186) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 22:19:04.196 (83186) (INFO) MainThread.<module> -> Creating model
+2024-01-10 22:19:04.369 (83186) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 22:19:04.369 (83186) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 22:19:12.157 (83186) (INFO) MainThread.train -> Training time took: 0:00:07.788031
+2024-01-10 22:19:12.159 (83186) (INFO) MainThread.PlotHistory -> Plotting history ...
+2024-01-10 22:19:49.630 (83186) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2024-01-10 22:19:49.630 (83186) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.json already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.json
+2024-01-10 22:19:49.637 (83186) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.h5 already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.h5
+2024-01-10 22:19:49.663 (83186) (INFO) MainThread.SaveResults -> Saving results ...
+2024-01-10 22:19:49.663 (83186) (WARNING) MainThread.SaveResults -> File save/large_portfolio_horizon1_window7_skip7.txt already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.txt
+2024-01-10 22:19:49.664 (83186) (INFO) MainThread.SaveHistory ->  Saving history ...
+2024-01-10 22:19:49.664 (83186) (WARNING) MainThread.SaveHistory -> File save/large_portfolio_horizon1_window7_skip7_history.csv already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110_history.csv
+2024-01-10 22:19:49.665 (83186) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.015334, RSE:0.144924, Correlation:0.499008
+2024-01-10 22:23:56.825 (83304) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 22:23:56.825 (83304) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 22:23:56.833 (83304) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 22:23:56.834 (83304) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 22:23:56.834 (83304) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 22:23:56.834 (83304) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 22:23:56.834 (83304) (INFO) MainThread.<module> -> Creating model
+2024-01-10 22:23:57.5 (83304) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 22:23:57.5 (83304) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 22:24:04.388 (83304) (INFO) MainThread.train -> Training time took: 0:00:07.382504
+2024-01-10 22:24:04.389 (83304) (INFO) MainThread.PlotHistory -> Plotting history ...
+2024-01-10 22:24:07.117 (83304) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2024-01-10 22:24:07.117 (83304) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.json already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.json
+2024-01-10 22:24:07.122 (83304) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.h5 already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.h5
+2024-01-10 22:24:07.137 (83304) (INFO) MainThread.SaveResults -> Saving results ...
+2024-01-10 22:24:07.137 (83304) (WARNING) MainThread.SaveResults -> File save/large_portfolio_horizon1_window7_skip7.txt already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.txt
+2024-01-10 22:24:07.139 (83304) (INFO) MainThread.SaveHistory ->  Saving history ...
+2024-01-10 22:24:07.139 (83304) (WARNING) MainThread.SaveHistory -> File save/large_portfolio_horizon1_window7_skip7_history.csv already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110_history.csv
+2024-01-10 22:24:07.140 (83304) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.015571, RSE:0.148197, Correlation:0.514766
+2024-01-10 22:29:43.471 (83421) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 22:29:43.472 (83421) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 22:29:43.481 (83421) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 22:29:43.482 (83421) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 22:29:43.482 (83421) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 22:29:43.482 (83421) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 22:29:43.482 (83421) (INFO) MainThread.<module> -> Creating model
+2024-01-10 22:29:43.668 (83421) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 22:29:43.668 (83421) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 22:29:50.356 (83421) (INFO) MainThread.train -> Training time took: 0:00:06.688550
+2024-01-10 22:29:50.356 (83421) (INFO) MainThread.PlotHistory -> Plotting history ...
+2024-01-10 22:29:53.771 (83421) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2024-01-10 22:29:53.771 (83421) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.json already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.json
+2024-01-10 22:29:53.777 (83421) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.h5 already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.h5
+2024-01-10 22:29:53.795 (83421) (INFO) MainThread.SaveResults -> Saving results ...
+2024-01-10 22:29:53.795 (83421) (WARNING) MainThread.SaveResults -> File save/large_portfolio_horizon1_window7_skip7.txt already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.txt
+2024-01-10 22:29:53.797 (83421) (INFO) MainThread.SaveHistory ->  Saving history ...
+2024-01-10 22:29:53.797 (83421) (WARNING) MainThread.SaveHistory -> File save/large_portfolio_horizon1_window7_skip7_history.csv already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110_history.csv
+2024-01-10 22:29:53.798 (83421) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.021626, RSE:0.204759, Correlation:0.295170
+2024-01-10 22:31:07.458 (83472) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 22:31:07.458 (83472) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 22:31:07.466 (83472) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 22:31:07.467 (83472) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 22:31:07.467 (83472) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 22:31:07.467 (83472) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 22:31:07.467 (83472) (INFO) MainThread.<module> -> Creating model
+2024-01-10 22:31:07.783 (83472) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2024-01-10 22:31:07.783 (83472) (INFO) MainThread.<module> -> Training model ... 
+2024-01-10 22:31:14.622 (83472) (INFO) MainThread.train -> Training time took: 0:00:06.838962
+2024-01-10 22:31:14.622 (83472) (INFO) MainThread.PlotHistory -> Plotting history ...
+2024-01-10 22:31:17.221 (83472) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2024-01-10 22:31:17.222 (83472) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.json already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.json
+2024-01-10 22:31:17.228 (83472) (WARNING) MainThread.SaveModel -> File save/large_portfolio_horizon1_window7_skip7.h5 already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.h5
+2024-01-10 22:31:17.243 (83472) (INFO) MainThread.SaveResults -> Saving results ...
+2024-01-10 22:31:17.243 (83472) (WARNING) MainThread.SaveResults -> File save/large_portfolio_horizon1_window7_skip7.txt already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110.txt
+2024-01-10 22:31:17.244 (83472) (INFO) MainThread.SaveHistory ->  Saving history ...
+2024-01-10 22:31:17.245 (83472) (WARNING) MainThread.SaveHistory -> File save/large_portfolio_horizon1_window7_skip7_history.csv already exists. Backing it up to save/large_portfolio_horizon1_window7_skip720240110_history.csv
+2024-01-10 22:31:17.245 (83472) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.020393, RSE:0.193008, Correlation:0.258630
+2024-01-10 22:33:45.662 (83546) (INFO) MainThread.<module> -> Python version: 3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+2024-01-10 22:33:45.662 (83546) (INFO) MainThread.<module> -> Tensorflow version: 2.15.0
+2024-01-10 22:33:45.670 (83546) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.40) and testing set (0.00)
+2024-01-10 22:33:45.671 (83546) (INFO) MainThread.<module> -> Training shape: X:(593, 7, 48) Y:(593, 48)
+2024-01-10 22:33:45.671 (83546) (INFO) MainThread.<module> -> Validation shape: X:(400, 7, 48) Y:(400, 48)
+2024-01-10 22:33:45.671 (83546) (INFO) MainThread.<module> -> Testing shape: X:(0, 7, 48) Y:(0, 48)
+2024-01-10 22:33:45.671 (83546) (INFO) MainThread.<module> -> Creating model

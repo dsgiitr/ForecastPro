@@ -1,0 +1,48 @@
+2023-06-29 11:15:32.340 (41228) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-06-29 11:15:32.344 (41228) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-06-29 11:15:32.344 (41228) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-06-29 11:15:32.363 (41228) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.25) and testing set (0.15)
+2023-06-29 11:15:32.365 (41228) (INFO) MainThread.<module> -> Training shape: X:(884, 28, 4) Y:(884, 4)
+2023-06-29 11:15:32.365 (41228) (INFO) MainThread.<module> -> Validation shape: X:(380, 28, 4) Y:(380, 4)
+2023-06-29 11:15:32.365 (41228) (INFO) MainThread.<module> -> Testing shape: X:(228, 28, 4) Y:(228, 4)
+2023-06-29 11:15:32.365 (41228) (INFO) MainThread.<module> -> Creating model
+2023-06-29 11:15:33.4 (41228) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2023-06-29 11:15:33.4 (41228) (INFO) MainThread.<module> -> Training model ... 
+2023-06-29 11:16:38.155 (41228) (INFO) MainThread.train -> Training time took: 0:01:05.151729
+2023-06-29 11:16:38.158 (41228) (INFO) MainThread.PlotHistory -> Plotting history ...
+2023-06-29 11:16:45.327 (41228) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2023-06-29 11:16:45.381 (41228) (INFO) MainThread.SaveResults -> Saving results ...
+2023-06-29 11:16:45.386 (41228) (INFO) MainThread.SaveHistory ->  Saving history ...
+2023-06-29 11:16:45.393 (41228) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.037651, RSE:0.385447, Correlation:0.591194
+2023-06-29 11:16:45.475 (41228) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.031518, RSE:0.153500, Correlation:0.604902
+2023-06-29 11:16:45.475 (41228) (INFO) MainThread.<module> -> Predict training data
+2023-06-29 11:16:46.129 (41228) (INFO) MainThread.<module> -> Predict validation data
+2023-06-29 11:16:46.229 (41228) (INFO) MainThread.<module> -> Predict testing data
+2023-06-29 11:16:46.311 (41228) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2023-06-29 11:16:46.311 (41228) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,4[. Setting it to 0
+2023-06-29 11:16:46.311 (41228) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 1520. Setting it to 0
+2023-06-29 11:16:46.311 (41228) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,1520[. Setting it to 1519
+2023-06-29 16:47:26.288 (28292) (INFO) MainThread.<module> -> Python version: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2023-06-29 16:47:26.288 (28292) (INFO) MainThread.<module> -> Tensorflow version: 2.9.1
+2023-06-29 16:47:26.288 (28292) (INFO) MainThread.<module> -> Keras version: 2.9.0 ... Using tensorflow embedded keras
+2023-06-29 16:47:26.407 (28292) (INFO) MainThread.split_data -> Splitting data into training set (0.60), validation set (0.25) and testing set (0.15)
+2023-06-29 16:47:26.423 (28292) (INFO) MainThread.<module> -> Training shape: X:(1772, 28, 48) Y:(1772, 48)
+2023-06-29 16:47:26.424 (28292) (INFO) MainThread.<module> -> Validation shape: X:(750, 28, 48) Y:(750, 48)
+2023-06-29 16:47:26.424 (28292) (INFO) MainThread.<module> -> Testing shape: X:(450, 28, 48) Y:(450, 48)
+2023-06-29 16:47:26.424 (28292) (INFO) MainThread.<module> -> Creating model
+2023-06-29 16:47:27.153 (28292) (INFO) MainThread.<module> -> Model compiled ... No tensorboard visualisation is available
+2023-06-29 16:47:27.153 (28292) (INFO) MainThread.<module> -> Training model ... 
+2023-06-29 16:49:33.716 (28292) (INFO) MainThread.train -> Training time took: 0:02:06.562592
+2023-06-29 16:49:33.716 (28292) (INFO) MainThread.PlotHistory -> Plotting history ...
+2023-06-29 16:50:14.338 (28292) (INFO) MainThread.SaveModel -> Saving model and weights ...
+2023-06-29 16:50:14.402 (28292) (INFO) MainThread.SaveResults -> Saving results ...
+2023-06-29 16:50:14.409 (28292) (INFO) MainThread.SaveHistory ->  Saving history ...
+2023-06-29 16:50:14.415 (28292) (INFO) MainThread.<module> -> Validation on the validation set returned: Loss:0.014486, RSE:0.122782, Correlation:0.522953
+2023-06-29 16:50:14.573 (28292) (INFO) MainThread.<module> -> Validation on the test set returned: Loss:0.021025, RSE:0.204609, Correlation:nan
+2023-06-29 16:50:14.573 (28292) (INFO) MainThread.<module> -> Predict training data
+2023-06-29 16:50:15.352 (28292) (INFO) MainThread.<module> -> Predict validation data
+2023-06-29 16:50:15.541 (28292) (INFO) MainThread.<module> -> Predict testing data
+2023-06-29 16:50:15.699 (28292) (INFO) MainThread.PlotPrediction -> Plotting Prediction ...
+2023-06-29 16:50:15.699 (28292) (WARNING) MainThread.PlotPrediction -> The series to plot must be an integer in the range [0,48[. Setting it to 0
+2023-06-29 16:50:15.699 (28292) (WARNING) MainThread.PlotPrediction -> start must be an integer less than 3000. Setting it to 0
+2023-06-29 16:50:15.699 (28292) (WARNING) MainThread.PlotPrediction -> end must be an integer in the range ]0,3000[. Setting it to 2999
